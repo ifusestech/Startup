@@ -55,7 +55,7 @@ temp/
 
 # Wrangler
 .wrangler/
-wrangler.toml
+# wrangler.toml - We need this for Cloudflare Pages deployment
 
 # Other
 .htaccess

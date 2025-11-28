@@ -1,0 +1,9 @@
+name = "digitransform"
+compatibility_date = "2025-11-28"
+
+[site]
+bucket = "."
+
+# This tells Cloudflare Pages that this is a static site
+# and all files in the root directory should be served
+

@@ -1,0 +1,18 @@
+# Cloudflare Pages Redirects and Rewrites
+
+# Redirect www to non-www (uncomment if you have a custom domain)
+# https://www.yourdomain.com/* https://yourdomain.com/:splat 301
+
+# Redirect old URLs to new ones (examples - customize as needed)
+# /old-page /new-page 301
+# /blog/* /news/:splat 301
+
+# Handle 404 errors with custom page (optional)
+# /* /404.html 404
+
+# Force HTTPS (Cloudflare handles this automatically, but you can be explicit)
+# http://* https://:splat 301
+
+# Redirect trailing slashes (optional)
+# /*/ /:splat 301
+
